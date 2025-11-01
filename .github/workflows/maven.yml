@@ -43,7 +43,7 @@ jobs:
           path: target/*.war
 
   deploy:
-    runs-on:ubuntu-latest
+    runs-on: ubuntu-latest
     needs: build
     environment: production
 
